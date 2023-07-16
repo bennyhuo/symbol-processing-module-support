@@ -9,7 +9,7 @@ dependencies {
     implementation(kotlin("stdlib"))
     api(project(":common-module-support"))
 
-    compileOnly("com.google.devtools.ksp:symbol-processing-api:1.7.10-1.0.6")
+    compileOnly("com.google.devtools.ksp:symbol-processing-api:1.8.20-1.0.11")
     compileOnly("com.squareup:kotlinpoet-ksp:1.12.0")
 }
 
