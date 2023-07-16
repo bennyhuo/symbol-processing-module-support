@@ -8,6 +8,7 @@ plugins {
 subprojects {
     repositories {
         mavenCentral()
+        google()
     }
 
     if (!name.startsWith("sample") && parent?.name?.startsWith("sample") != true) {
