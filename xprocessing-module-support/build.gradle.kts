@@ -10,8 +10,8 @@ dependencies {
 
     api(project(":common-module-support"))
 
-    compileOnly("androidx.room:room-compiler-processing:2.5.2")
-    compileOnly("com.google.devtools.ksp:symbol-processing-api:1.8.20-1.0.11")
+    compileOnly("androidx.room:room-compiler-processing:2.6.0")
+    compileOnly("com.google.devtools.ksp:symbol-processing-api:1.9.20-1.0.14")
 }
 
 tasks.withType<KotlinCompile>().configureEach {
